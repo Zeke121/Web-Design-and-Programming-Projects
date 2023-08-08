@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  <link rel="stylesheet" href="form.css">
+  <style>
+    h1 {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+    </style>
+</head>
+<body>
+  
+  <div class="form-container">
+  <h1>Booking form</h1><br></br>
+    <form action="link_where_to_submit_the_form.php">
+        <label class="form-label">First Name:</label>
+        <input class="form-input" type="text" name="first_name" placeholder="Please enter your name">
+
+        <label class="form-label">Surname:</label>
+        <input class="form-input" type="text" name="surname" placeholder="Please enter your surname">
+
+        <label class="form-label">Email:</label>
+        <input class="form-input" type="text" name="email" placeholder="Enter your email here..">
+
+        <label class="form-label">Are you a Namibian?</label>
+        <label>Yes</label>
+        <input class="form-input" type="radio" name="namibian_yn">
+
+        <label class="form-label">No</label>
+        <input class="form-input" type="radio" name="namibian_yn">
+
+        <label class="form-label">License Number:</label>
+        <input class="form-input" type="text" name="licence_number" placeholder="Enter your licence number">
+
+        <label class="form-label">Which car would you like to book</label>
+        <select class="form-input">
+            <option >Mazda</option>
+            <option >Toyota</option>
+            <option >Volvo</option>
+            <option >BMW</option>
+            <option >Mercedez Benz</option>
+        </select>
+        <label class="form-label">Describe what you are going to use the car for</label>
+        <textarea class="form-input" name="booking_purpose"></textarea>
+    </form>
+    </div>
+
+</body>
+</html>
